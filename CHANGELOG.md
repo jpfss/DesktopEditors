@@ -14,7 +14,8 @@
 
 * Fixed the “Segmentation fault (Core dumped)” error when launching or closing
   the application (Linux)
-* Fixed transferring focus to a document when opening it via the “Open with” menu (Windows)
+* Fixed transferring focus to a document when opening it via the “Open with”
+  menu (Windows)
 * Fixed missing translations of some interface elements after changing the application
   language before restarting it
 * Fixed kDrive unavailability after connecting the integrator in the application
@@ -31,12 +32,14 @@
   of contents was updated
 * Fixed an issue with undone changes when turning off and on the “Show changes from
   other users” option in the live viewer
-* Fixed crash of the editor when pasting text in the Track Changes mode in some `DOCX` files
+* Fixed crash of the editor when pasting text in the Track Changes mode in
+  some `DOCX` files
 * Fixed stopping work of the editor when removing a paragraph in the Track Changes
   mode in some `DOCX` files
 * Fixed reset of the Text direction > RTL option when placing the cursor in a new
   paragraph using Double click
-* Fixed incorrect display of characters when entering text in RTL before saving the document
+* Fixed incorrect display of characters when entering text in RTL before saving
+  the document
 * Fixed replacing the less than sign to the greater than sign when opening a document
   with RTL contents
 * Fixed the movement of picture content control with track handler
@@ -45,15 +48,18 @@
   is positioned in one of the nested ones
 * Fixed the calculation of line breaks in the East-Asian text
 * Fixed changing text alignment when opening some `DOCX` files
-* Fixed line break position when there is an inline math equation when opening some `DOCX` files
+* Fixed line break position when there is an inline math equation when opening
+  some `DOCX` files
 
 #### Spreadsheet Editor
 
 * Fixed stopping work of the editor when entering data in some `XLSX` files
 * Fixed crash of the editor after redoing the sheet movement
-* Fixed stopping work of the editor after trying to select a value in a cell in some `XLSX` files
+* Fixed stopping work of the editor after trying to select a value in a cell in
+  some `XLSX` files
 * Fixed incorrect recalculation of the `TAKE` function in some formulas
-* Fixed loss of a hyperlink in the resulting workbook when using the `IMPORTRANGE` formula
+* Fixed loss of a hyperlink in the resulting workbook when using the `IMPORTRANGE`
+  formula
 * Fixed the #NAME error when recalculating the `IF` function in some `XLSX` files
 * Fixed the imaginary ability to continue editing after connection break
 * Fixed the #NAME error after adding an external link to a named range
@@ -61,7 +67,8 @@
   if the document scale is set to Fit All Columns on One Page
 * Fixed appearing the warning after entering a formula via the Insert Function window
 * Fixed activation of the Undo button after an incorrect attempt to enter a formula
-* Fixed the “Invalid regular expression” error when creating Calculates Items in some `XLSX` files
+* Fixed the “Invalid regular expression” error when creating Calculates Items in
+  some `XLSX` files
 * Fixed the “There are one or more circular references where a formula refers”
   error when opening some `XLSX` files
 * Fixed errors in formula calculations when opening some `XLS` files
@@ -83,7 +90,8 @@
 * Fixed an issue with table display when exporting some `PPTX` files to `ODP`
 * Fixed display of the first characters of a word when using the Morph transition
   with the Words / Letters parameter
-* Fixed changing the Flip parameter for images after exporting some `PPTX` files to `ODF`
+* Fixed changing the Flip parameter for images after exporting some
+  `PPTX` files to `ODF`
 * Fixed loss of digital signature after drawing in the Slideshow mode
 
 #### Forms
@@ -98,7 +106,8 @@
 * Fixed crash when undoing adding a Text Comment in some `PDF` files
 * Fixed stopping work when clicking Edit Text in some `PDF` files
 * Fixed crash when clicking in Text Callout
-* Fixed the ability to save the `PDF` file if the cursor is positioned in the Text Comment window
+* Fixed the ability to save the `PDF` file if the cursor is positioned in
+  the Text Comment window
 * Fixed data loss when opening some `PDF` files created in the ItextSharp library
 * Fixed the ability to insert contents to the page removed by another user
 * Fixed data loss after copying contents of some `PDF` files and pasting the contents
@@ -117,11 +126,14 @@
 * Fixed offset of multilevel list items when opening some `ODT` files
 * Fixed changing the fill when converting some `ODP` files to `PPTX`
 * Fixed changing the text style when converting some `ODT` files to `DOCX`
-* Fixed changing the indents of table of contents numbering when converting some `ODT` files to `DOCX`
-* Fixed applying the footnote property to the text following it when converting some `ODT` files to `DOCX`
+* Fixed changing the indents of table of contents numbering when converting
+  some `ODT` files to `DOCX`
+* Fixed applying the footnote property to the text following it when converting
+  some `ODT` files to `DOCX`
 * Fixed removal of headings numbering when converting some `ODT` files to `DOCX`
 * Fixed losing an image when converting some `ODT` files to `DOCX`
-* Fixed changing the appearance of an arrow when converting some `DOCX` files to `PDF`
+* Fixed changing the appearance of an arrow when converting some `DOCX`
+  files to `PDF`
 * Fixed display of images when opening some `ODS` files
 * Fixed missing images when opening some `Pages` files
 * Fixed changing the font size when converting some `ODT` files to `DOCX`
