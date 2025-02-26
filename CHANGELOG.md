@@ -109,7 +109,6 @@
 * Fixed the ability to save the `PDF` file if the cursor is positioned in
   the Text Comment window
 * Fixed data loss when opening some `PDF` files created in the ItextSharp library
-* Fixed the ability to insert contents to the page removed by another user
 * Fixed data loss after copying contents of some `PDF` files and pasting the contents
   into the Document Editor
 * Fixed adding a stamp outside the page after rotating it
